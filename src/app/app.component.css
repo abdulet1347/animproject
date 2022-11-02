@@ -1,0 +1,188 @@
+.container{
+    background-color: #f3f3f4;
+    padding: 61px;
+    width: 51vw;
+    height: 37vh;
+    position: relative;
+}
+
+.content{
+    width: 340px;
+    height: 24vh;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.login_btn{
+    border: none;
+    background-color: #007ee5;
+    color: white;
+    font-weight: 600;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+   
+}
+.wrap{
+    display: flex;
+    gap: 100px;
+}
+ 
+
+/* 
+.padTen{
+    padding: 7px;
+} */
+input{
+    height: 2rem !important;
+    font-size: 13px !important;
+    padding: 5px;
+}
+
+.SubmitBtn{
+    height: 34px !important;
+    padding: 0px 7px !important;
+    font-size: 13px !important;
+}
+.DoneImg{
+    position: absolute;
+    top: 32%;
+    left: 41%;
+}
+
+.loginmsg{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* ****************** anim ************* */
+.red{
+    height:390px;
+    width: 90px;
+    background-color:rgb(255, 51, 0);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    position:absolute;
+    z-index: 1;
+  
+}
+
+.orange{
+        height:390px;
+        width: 90px;
+        background-color:rgb(255, 145, 0);
+        border-radius: 5px;
+        z-index: 0;
+        position:absolute;
+    }
+    .yellow{
+        height:390px;
+        width: 90px;
+        background-color:rgb(255, 238, 0);
+        border-radius: 5px;
+        z-index: -1;
+        position:absolute;
+    }
+
+    .green{
+        height:390px;
+        width: 90px;
+        background-color:rgb(94, 128, 0);
+        border-radius: 5px;
+        z-index: -2;
+        position:absolute;
+    }
+
+    
+.brown{
+    height:390px;
+    width: 90px;
+    background-color:rgb(165, 108, 42);
+    border-radius: 5px;
+    z-index: -3;
+    position:absolute;
+   
+}
+
+.voilet{
+         height:350px;
+        width: 90px;
+        background-color:#007ee5;
+        border-radius: 5px;
+        z-index: -4;
+        
+    }
+.container1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    margin-top: 67vh;
+}
+.card1{
+    display:flex;
+    
+}
+.card1 div{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    padding-top: 5px;
+    text-align: center;
+}
+.round{
+    height:15px;
+    background-color: white;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.card1:hover .red{
+    transform: translate(100px,24px) rotate(31deg); 
+    transition-duration: 0.4s;
+}
+.card1:hover .orange{
+    transform: translate(50px,5px) rotate(15deg); 
+    transition-duration: 0.4s;
+}
+
+.card1:hover .yellow{
+    transform: translate(0px) rotate(-1deg); 
+    transition-duration: 0.4s;
+}
+
+.card1:hover .green{
+    transform: translate(-50px,10px) rotate(-17deg); 
+    transition-duration: 0.4s;
+}
+
+.card1:hover .brown{
+    transform: translate(-80px,30px) rotate(-40deg); 
+    transition-duration: 0.4s;
+}
+
+.card1:hover .voilet{
+    transform: translate(-120px,70px) rotate(-62deg); 
+    transition-duration: 0.4s;
+}
+
+.login{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    /* transition: .5s all;
+    transform: translateX(450%); */
+}
+
+.login.active{
+    transform: translateX(0);
+}
+
+
+
+
