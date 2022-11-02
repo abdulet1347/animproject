@@ -48,6 +48,7 @@ export class AppComponent {
   loginPage:boolean=false;
   doneImg=false;
   buttonHide=true;
+  newanimshow=false;
 
   loginShow(){
    this.loginPage=!this.loginPage;
@@ -56,5 +57,6 @@ export class AppComponent {
   done(){
     this.doneImg=true;
     this.loginPage=false;
+    this.newanimshow=true;
   }
 }
